@@ -7,10 +7,10 @@
 */
 
 let a = "1"+2;
-let b = "1"+"2"
+let b = "1"+"2";
 let c = 1+"2";
-let x = "1"+2+3
-let y = 1+2+"3"
+let x = "1"+2+3;
+let y = 1+2+"3";
 
 console.table([a,b,c,x,y]);
 console.table([
