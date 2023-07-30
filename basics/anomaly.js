@@ -9,6 +9,10 @@ console.log(Math.min());
 // I have no idea what is happening here.
 console.log([]+[]);
 console.log([]+{});
+console.log({}+{});
+console.log(this+this == {}+{});
+console.log(NaN == NaN);
+console.log(NaN+NaN);
 
 // true = 1, false = 0
 console.log(true+false == 1);
